@@ -7,7 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		920F0AD429247D2500046438 /* BlabHelp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920F0AD329247D2500046438 /* BlabHelp.swift */; };
 		923E8007290343F40036CEC0 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923E8006290343F40036CEC0 /* main.swift */; };
+		923E800E2903440D0036CEC0 /* TSVFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923E800D2903440D0036CEC0 /* TSVFile.swift */; };
+		923E8016290345180036CEC0 /* StringStuff.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923E8015290345180036CEC0 /* StringStuff.swift */; };
+		923E801829037BDD0036CEC0 /* CollectionUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923E801729037BDD0036CEC0 /* CollectionUtilities.swift */; };
+		928B13E529038C6D004881DC /* ReservedWords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928B13E429038C6D004881DC /* ReservedWords.swift */; };
+		92A52F222926EAFF00C6D2D4 /* ZTextFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A52F202926EAFF00C6D2D4 /* ZTextFile.swift */; };
+		92A52F292926F5CF00C6D2D4 /* ZBigTextFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A52F272926F5CE00C6D2D4 /* ZBigTextFile.swift */; };
+		92A52F2A2926F5CF00C6D2D4 /* SimpleOrderedCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A52F282926F5CF00C6D2D4 /* SimpleOrderedCollection.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +31,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		920F0AD329247D2500046438 /* BlabHelp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlabHelp.swift; sourceTree = "<group>"; };
 		923E8003290343F40036CEC0 /* tsvSQL */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = tsvSQL; sourceTree = BUILT_PRODUCTS_DIR; };
 		923E8006290343F40036CEC0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		923E800D2903440D0036CEC0 /* TSVFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TSVFile.swift; sourceTree = "<group>"; };
+		923E8015290345180036CEC0 /* StringStuff.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringStuff.swift; sourceTree = "<group>"; };
+		923E801729037BDD0036CEC0 /* CollectionUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionUtilities.swift; sourceTree = "<group>"; };
+		928B13E429038C6D004881DC /* ReservedWords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservedWords.swift; sourceTree = "<group>"; };
+		92A52F202926EAFF00C6D2D4 /* ZTextFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZTextFile.swift; sourceTree = "<group>"; };
+		92A52F272926F5CE00C6D2D4 /* ZBigTextFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ZBigTextFile.swift; path = "../../../Utility/Swift-Utilities/Swift-Utilities/ZBigTextFile.swift"; sourceTree = "<group>"; };
+		92A52F282926F5CF00C6D2D4 /* SimpleOrderedCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleOrderedCollection.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +73,25 @@
 		923E8005290343F40036CEC0 /* tsvSQL */ = {
 			isa = PBXGroup;
 			children = (
+				924CD29D291E10AF008BF247 /* SQLTypes */,
 				923E8006290343F40036CEC0 /* main.swift */,
+				923E800D2903440D0036CEC0 /* TSVFile.swift */,
+				923E8015290345180036CEC0 /* StringStuff.swift */,
+				923E801729037BDD0036CEC0 /* CollectionUtilities.swift */,
+				928B13E429038C6D004881DC /* ReservedWords.swift */,
+				920F0AD329247D2500046438 /* BlabHelp.swift */,
+				92A52F282926F5CF00C6D2D4 /* SimpleOrderedCollection.swift */,
+				92A52F202926EAFF00C6D2D4 /* ZTextFile.swift */,
+				92A52F272926F5CE00C6D2D4 /* ZBigTextFile.swift */,
 			);
 			path = tsvSQL;
+			sourceTree = "<group>";
+		};
+		924CD29D291E10AF008BF247 /* SQLTypes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SQLTypes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,7 +152,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				920F0AD429247D2500046438 /* BlabHelp.swift in Sources */,
 				923E8007290343F40036CEC0 /* main.swift in Sources */,
+				92A52F222926EAFF00C6D2D4 /* ZTextFile.swift in Sources */,
+				923E800E2903440D0036CEC0 /* TSVFile.swift in Sources */,
+				928B13E529038C6D004881DC /* ReservedWords.swift in Sources */,
+				923E801829037BDD0036CEC0 /* CollectionUtilities.swift in Sources */,
+				92A52F292926F5CF00C6D2D4 /* ZBigTextFile.swift in Sources */,
+				923E8016290345180036CEC0 /* StringStuff.swift in Sources */,
+				92A52F2A2926F5CF00C6D2D4 /* SimpleOrderedCollection.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
