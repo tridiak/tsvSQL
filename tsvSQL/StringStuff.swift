@@ -62,7 +62,7 @@ extension String {
 	}
 	
 	/// Keep all characters in set from string and returning a new string.
-	/// - Parameter set: Characters to remove.
+	/// - Parameter set: Characters to keep.
 	/// - Returns: resultant string
 	func KeepThoseIn(set: CharacterSet) -> String {
 		if self.isEmpty { return self }
@@ -78,7 +78,7 @@ extension String {
 	}
 	
 	/// Mutates the string by keeping the characters in set.
-	/// - Parameter set: Characters to remove.
+	/// - Parameter set: Characters to keep.
 	mutating func KeepThoseInM(set: CharacterSet) {
 		self = KeepThoseIn(set: set)
 	}

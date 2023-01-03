@@ -165,7 +165,9 @@ class TSVFile {
 	// Header data type is guesswork. Data type may change as lines are parsed.
 	private struct Header {
 		init(name: String) {
-			self.name = name.replacingOccurrences(of: " ", with: "_")
+			var s = name.replacingOccurrences(of: " ", with: "_")
+			s.KeepThoseInM(set: CharacterSet(charactersIn: "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789_"))
+			self.name = s
 		}
 		let name : String
 		//
